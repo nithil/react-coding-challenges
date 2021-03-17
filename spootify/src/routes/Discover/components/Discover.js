@@ -24,7 +24,7 @@ export default class Discover extends Component {
       ]);
       this.setState({ newReleases, playlists, categories });
     } catch (error) {
-      // show toast
+      alert(`${error.message} \n${error.data.error_description}`);
       console.error(error);
     }
   }
