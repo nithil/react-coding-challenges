@@ -22,6 +22,7 @@ function renderSideBarOption(link, icon, text, { selected } = {}) {
 }
 
 export default function SideBar() {
+  // TODO: render real name by https://developer.spotify.com/documentation/web-api/reference/#endpoint-get-current-users-profile
   return (
     <div className="sidebar">
       <div className="sidebar__profile">
